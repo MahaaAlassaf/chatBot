@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Book_IMS
-Book Inventroy Management System
-=======
 # ChatBot Project
 
 ## Overview
