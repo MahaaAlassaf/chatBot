@@ -14,9 +14,9 @@ This Book ChatBot project is composed of several Python scripts designed to hand
 - **streamlit_app.py**: Implements the Streamlit application for user interaction.
 
 ## How It Works
-Overview
-1.Fetching User Input: The user inputs queries related to books through the Streamlit app.
-2.Intent Extraction: The system analyzes these inputs to determine the user's intent.
-3.Data Fetching: Based on the extracted intent, relevant from sources.
-4.Data Storage and Retrieval: The fetched data is stored and managed in ChromaDB, allowing for efficient querying and retrieval for recommendtion.
-5.User Interface Interaction: The results are displayed in the Streamlit app, providing an interactive experience for the user. for interacting with the backend functionalities. Users can fetch data, perform intent extraction, and view results directly from the Streamlit app.
+1. Fetching User Input: The user inputs queries related to books through the Streamlit app.
+2. Intent Extraction: The system analyzes these inputs to determine the user's intent.
+3. Data Fetching: Based on the extracted intent, relevant from sources.
+4. Data Storage and Retrieval: The fetched data is stored and managed in ChromaDB, allowing for efficient querying and retrieval for recommendtion.
+5. User Interface Interaction: The results are displayed in the Streamlit app, providing an interactive experience for the user. for interacting with the backend functionalities. Users can fetch data, perform intent extraction, and view results directly from the Streamlit app.
+
