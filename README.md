@@ -29,26 +29,6 @@ This Book ChatBot project is composed of several Python scripts designed to hand
     pip install -r requirements.txt
     ```
 
-## Usage
-
-### Running the FastAPI Application
-
-To run the FastAPI application, execute:
-
-```sh
-uvicorn main:app --reload
-```
-The application will be available at [http://127.0.0.1:8000](http://127.0.0.1:8000).
-
-### Running the Streamlit Application
-
-To run the Streamlit application, execute:
-
-```sh
-streamlit run streamlit_app.py
-```
-The Streamlit app will be available at [http://localhost:8501](http://localhost:8501).
-
 ## How It Works
 
 ### Overview
