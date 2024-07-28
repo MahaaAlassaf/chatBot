@@ -14,68 +14,9 @@ This Book ChatBot project is composed of several Python scripts designed to hand
 - **streamlit_app.py**: Implements the Streamlit application for user interaction.
 
 ## How It Works
-
-### Overview
-
-This project integrates various modules to provide functionalities such as data fetching, intent extraction, and data storage using ChromaDB. The Streamlit app serves as a user interface for interacting with these functionalities.
-
-### ChromaDB Operations
-
-The `chroma.py` script handles all operations related to ChromaDB, including connecting to the database, querying, and storing data.
-
-### Data Fetching
-
-The `fetch_data.py` script contains functions to fetch data from various sources. This script can be customized to include different APIs or data sources as needed.
-
-### Intent Extraction
-
-The `intent_extraction.py` script implements logic for extracting intents from text data. It uses natural language processing techniques to analyze and categorize user inputs.
-
-### API Handling
-
-The `main.py` script serves as the entry point for the FastAPI application. It defines the API endpoints and handles requests and responses. The `ollama_handler.py` script manages interactions with the Ollama API, which might include data fetching, processing, or other API-related tasks.
-
-### Vector Store Operations
-
-The `SaveDataToVectorstore.py` script contains the logic to save data into a vector store, which is useful for handling large datasets and performing efficient searches.
-
-### User Interface
-
-The `streamlit_app.py` script implements a Streamlit application that provides a user-friendly interface for interacting with the backend functionalities. Users can fetch data, perform intent extraction, and view results directly from the Streamlit app.
-
-## Dependencies
-
-The project relies on the following packages, as specified in `requirements.txt`:
-
-- fastapi
-- uvicorn
-- streamlit
-- requests
-- sentence-transformers
-- chromadb
-- langchain-core
-
-To install these dependencies, run:
-
-```sh
-pip install -r requirements.txt
-```
-
-## Contributing
-
-If you wish to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature-name`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add some feature'`).
-5. Push to the branch (`git push origin feature/your-feature-name`).
-6. Create a new Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-Special thanks to all contributors and the open-source community for their valuable work and resources.
+Overview
+1.Fetching User Input: The user inputs queries related to books through the Streamlit app.
+2.Intent Extraction: The system analyzes these inputs to determine the user's intent.
+3.Data Fetching: Based on the extracted intent, relevant from sources.
+4.Data Storage and Retrieval: The fetched data is stored and managed in ChromaDB, allowing for efficient querying and retrieval for recommendtion.
+5.User Interface Interaction: The results are displayed in the Streamlit app, providing an interactive experience for the user. for interacting with the backend functionalities. Users can fetch data, perform intent extraction, and view results directly from the Streamlit app.
