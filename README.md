@@ -1,7 +1,7 @@
 # ChatBot Project
 
 ## Overview
-This ChatBot project is composed of several Python scripts designed to handle various tasks related to data fetching, intent extraction, and managing data with ChromaDB. The project includes a Streamlit app for user interaction and APIs built with FastAPI.
+This Book ChatBot project is composed of several Python scripts designed to handle various tasks related to book data fetching, intent extraction, and managing book-related data with ChromaDB. The project includes a Streamlit app for user interaction and APIs built with FastAPI.
 
 ## Files Description for llm folder
 - **chroma.py**: Handles ChromaDB related operations.
