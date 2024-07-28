@@ -13,22 +13,6 @@ This Book ChatBot project is composed of several Python scripts designed to hand
 - **SaveDataToVectorstore.py**: Contains logic to save data to a vector store.
 - **streamlit_app.py**: Implements the Streamlit application for user interaction.
 
-## Installation
-1. Clone the repository:
-    ```sh
-    git clone <repository_url>
-    cd <repository_name>
-    ```
-2. Create a virtual environment and activate it:
-    ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
-3. Install the dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
 ## How It Works
 
 ### Overview
